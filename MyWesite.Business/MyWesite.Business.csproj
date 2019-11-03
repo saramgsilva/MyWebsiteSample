@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyWebSite.DataAccess\MyWebSite.DataAccess.csproj" />
+    <ProjectReference Include="..\MyWesite.Dtos\MyWesite.Dtos.csproj" />
     <ProjectReference Include="..\MyWesite.Model\MyWesite.Model.csproj" />
   </ItemGroup>
 

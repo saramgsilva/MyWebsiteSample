@@ -33,6 +33,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWesite.FrontEnd.Tests", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWesite.Business.Tests", "MyWesite.Business.Tests\MyWesite.Business.Tests.csproj", "{17004E4F-2992-422E-B753-BE7F01709992}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{BDB4F64A-1306-4754-BA04-F1E2A412EA90}"
+	ProjectSection(SolutionItems) = preProject
+		MigrationÔutput.md = MigrationÔutput.md
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWesite.Dtos", "MyWesite.Dtos\MyWesite.Dtos.csproj", "{E3E64345-46DA-408C-9C69-A65AECA41479}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +91,10 @@ Global
 		{17004E4F-2992-422E-B753-BE7F01709992}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17004E4F-2992-422E-B753-BE7F01709992}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17004E4F-2992-422E-B753-BE7F01709992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E64345-46DA-408C-9C69-A65AECA41479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E64345-46DA-408C-9C69-A65AECA41479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E64345-46DA-408C-9C69-A65AECA41479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E64345-46DA-408C-9C69-A65AECA41479}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +112,7 @@ Global
 		{55E286D1-72BC-4EE1-962B-62FE40EEF954} = {1D0C8001-32E9-412F-987D-D720F1445562}
 		{3A7A720A-7BEC-48A0-8156-ECA506E826D6} = {340D3473-5415-4C54-A2AC-00E1D0ABF2E5}
 		{17004E4F-2992-422E-B753-BE7F01709992} = {340D3473-5415-4C54-A2AC-00E1D0ABF2E5}
+		{E3E64345-46DA-408C-9C69-A65AECA41479} = {1D0C8001-32E9-412F-987D-D720F1445562}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2833E95A-C756-418D-BD0F-BEF783C23CC0}
