@@ -1,21 +1,44 @@
+# MyWebSite 
+
+MyWebSite Sample provides a startup project based on Asp.Net Core
+
+# Diagrams
+
+## Architecture
+
+
+![Architecture diagram](/Diagrams/Diagram.png)
+
+
+## Layers
+
+
+![Layer's diagram](/Diagrams/LayersDiagram.png)
+
+
 # Installing & updating EntityFramework Core
 
 ### Oficial documentation
 
 *  Getting Started with EF Core
-https://docs.microsoft.com/en-us/ef/core/get-started/?tabs=netcore-cli
+    
+    https://docs.microsoft.com/en-us/ef/core/get-started/?tabs=netcore-cli
 
 * Razor Pages with Entity Framework Core in ASP.NET Core - Tutorial 1 of 8
-https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-3.0&tabs=visual-studio
+   
+    https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-3.0&tabs=visual-studio
 
 * Configuring a DbContext
-https://docs.microsoft.com/en-us/ef/core/miscellaneous/configuring-dbcontext
+    
+    https://docs.microsoft.com/en-us/ef/core/miscellaneous/configuring-dbcontext
 
 * Troubleshooting the dotnet ef command for EF Core Migrations
-https://thedatafarm.com/data-access/no-executable-found-matching-command-dotnet-ef/
+    
+    https://thedatafarm.com/data-access/no-executable-found-matching-command-dotnet-ef/
 
 * Tutorial: Using the migrations feature - ASP.NET MVC with EF Core
-https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/migrations?view=aspnetcore-3.0
+    
+    https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/migrations?view=aspnetcore-3.0
 
 
 dotnet tool install --global dotnet-ef
@@ -39,4 +62,5 @@ dotnet tool install --global dotnet-ef
 ## Others References
 
 * How to: Add class diagrams to projects
-https://docs.microsoft.com/en-us/visualstudio/ide/class-designer/how-to-add-class-diagrams-to-projects?view=vs-2019
+    
+    https://docs.microsoft.com/en-us/visualstudio/ide/class-designer/how-to-add-class-diagrams-to-projects?view=vs-2019
